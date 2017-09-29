@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
