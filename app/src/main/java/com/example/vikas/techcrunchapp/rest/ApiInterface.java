@@ -5,6 +5,7 @@ package com.example.vikas.techcrunchapp.rest;
  */
 
 import com.example.vikas.techcrunchapp.model.PostsResponse;
+import com.example.vikas.techcrunchapp.model.SelecetdPost;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -16,11 +17,11 @@ public interface ApiInterface {
 
     @GET("techcrunch.com/posts/")
     Call<PostsResponse> getNewPosts();
-/*
-    @GET("movie/{id}")
-    Call<Movie> getMovieDetails(@Path("id") int id, @Query("api_key") String apiKey);
 
-    @GET("movie/{id}/videos")
+    @GET("techcrunch.com/posts/{id}")
+    Call<SelecetdPost> getPostDetails(@Path("id") int id);
+
+   /* @GET("movie/{id}/videos")
     Call<Movie> getMovieVideo(@Path("id") int id, @Query("api_key") String apiKey);*/
 
 

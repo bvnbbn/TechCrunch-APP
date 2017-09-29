@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
        // recyclerView.setItemAnimator(new DefaultItemAnimator());
 
 
-
+        //calling api of posts
         ApiInterface apiInterface= ApiClient.getClient().create(ApiInterface.class);
         Call<PostsResponse> call= apiInterface.getNewPosts();
         call.enqueue(new Callback<PostsResponse>()

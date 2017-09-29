@@ -40,6 +40,7 @@
             android:layout_gravity="top"
             android:paddingRight="16dp"
             android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
             android:textStyle="bold"
             android:text="SpaceX aims to replace Falcon 9, Falcon Heavy, and Dragon with one spaceship"
             android:textColor="@color/colorBlack"
@@ -52,6 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingRight="16dp"
+
             android:text="by Darrell Etherington"
             android:textColor="@color/colorGreyLight" />
 
