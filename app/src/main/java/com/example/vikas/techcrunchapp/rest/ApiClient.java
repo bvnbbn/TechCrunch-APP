@@ -16,7 +16,7 @@ public class ApiClient
     {
         if(retrofit==null)
         {
-            retrofit= new Retrofit.Builder()//netsed class of Retrofit used to create a new instance of retrofit class
+            retrofit= new Retrofit.Builder()//nested class of Retrofit used to create a new instance of retrofit class
                     .baseUrl(URL)//loaded the base URL which will be used later for all api calls
                     .addConverterFactory(GsonConverterFactory.create())//added converter factory for
                     // serialization and desserialization of objects

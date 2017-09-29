@@ -27,17 +27,17 @@ public class Posts {
     @SerializedName("featured_image")
     private String featured_image;
 
-    @SerializedName("author")
-    private List<Author> author = new ArrayList<>();
+  /*  @SerializedName("author")
+    private List<Author> author = new ArrayList<>();*/
 
-    public Posts(int ID, int site_ID, String title, String URL, String excerpt, String featured_image, List<Author> author) {
+    public Posts(int ID, int site_ID, String title, String URL, String excerpt, String featured_image) {
         this.ID = ID;
         this.site_ID = site_ID;
         this.title = title;
         this.URL = URL;
         this.excerpt = excerpt;
         this.featured_image = featured_image;
-        this.author = author;
+      //  this.author = author;
     }
 
     public int getID() {
@@ -88,11 +88,11 @@ public class Posts {
         this.featured_image = featured_image;
     }
 
-    public List<Author> getAuthor() {
+  /*  public List<Author> getAuthor() {
         return author;
     }
 
     public void setAuthor(List<Author> author) {
         this.author = author;
-    }
+    }*/
 }

@@ -12,11 +12,11 @@ public class Author {
     private int ID;
 
     @SerializedName("name")
-    private String title;
+    private String name;
 
-    public Author(int ID, String title) {
+    public Author(int ID, String name) {
         this.ID = ID;
-        this.title = title;
+        this.name = name;
     }
 
 
@@ -29,10 +29,10 @@ public class Author {
     }
 
     public String getTitle() {
-        return title;
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitle(String name) {
+        this.name = name;
     }
 }

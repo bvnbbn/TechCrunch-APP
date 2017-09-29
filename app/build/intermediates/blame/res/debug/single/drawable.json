@@ -44,6 +44,10 @@
         "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/circle.xml",
+        "source": "/home/vikas/Desktop/TechCrunchApp/app/src/main/res/drawable/circle.xml"
+    },
+    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
@@ -64,6 +68,10 @@
         "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/drawable/navigation_empty_icon.xml"
     },
     {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/geometry.png",
+        "source": "/home/vikas/Desktop/TechCrunchApp/app/src/main/res/drawable/geometry.png"
+    },
+    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable/abc_vector_test.xml"
     },
@@ -82,6 +90,10 @@
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/my_subtle_pattern.xml",
+        "source": "/home/vikas/Desktop/TechCrunchApp/app/src/main/res/drawable/my_subtle_pattern.xml"
     },
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
