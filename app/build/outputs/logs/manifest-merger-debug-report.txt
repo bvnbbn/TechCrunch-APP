@@ -15,14 +15,16 @@ ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:2:
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
 application
 ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/vikas/.android/build-cache/9efd54ae8d476abaf4ec063cb9208e2db9a2eeb3/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/vikas/.android/build-cache/0a10edc050c1024f6c99f02d413f1436f60a4264/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/vikas/.android/build-cache/d4b2070fbf9f8c0e6da4dc2776bbb6b741f4e423/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /home/vikas/.android/build-cache/2d5633cb25bb034fb426d06606ea46d0f3dc9b55/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/vikas/.android/build-cache/ad547a6dccbec4ec68fbd188c25e6e99976c0be4/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/vikas/.android/build-cache/596c1db2da58047377ae00cdfad84c41aaf4ac89/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vikas/.android/build-cache/3ae3c0921ef4b1c714cce5e8f1c3e063d93d4c5b/output/AndroidManifest.xml:9:5-20
 	android:label
@@ -53,18 +55,21 @@ ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:16
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:16:27-74
 uses-sdk
 INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/vikas/.android/build-cache/9efd54ae8d476abaf4ec063cb9208e2db9a2eeb3/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] /home/vikas/.android/build-cache/0a10edc050c1024f6c99f02d413f1436f60a4264/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /home/vikas/.android/build-cache/d4b2070fbf9f8c0e6da4dc2776bbb6b741f4e423/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /home/vikas/.android/build-cache/2d5633cb25bb034fb426d06606ea46d0f3dc9b55/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/vikas/.android/build-cache/ad547a6dccbec4ec68fbd188c25e6e99976c0be4/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/vikas/.android/build-cache/40575db10a51ee46fbcffd62fcc6303d8dc16f96/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /home/vikas/.android/build-cache/596c1db2da58047377ae00cdfad84c41aaf4ac89/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vikas/.android/build-cache/3ae3c0921ef4b1c714cce5e8f1c3e063d93d4c5b/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
@@ -72,16 +77,19 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vikas
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/vikas/.android/build-cache/9efd54ae8d476abaf4ec063cb9208e2db9a2eeb3/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] /home/vikas/.android/build-cache/0a10edc050c1024f6c99f02d413f1436f60a4264/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /home/vikas/.android/build-cache/d4b2070fbf9f8c0e6da4dc2776bbb6b741f4e423/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /home/vikas/.android/build-cache/2d5633cb25bb034fb426d06606ea46d0f3dc9b55/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/vikas/.android/build-cache/ad547a6dccbec4ec68fbd188c25e6e99976c0be4/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vikas/.android/build-cache/d8e8e93cb02d0c146febb2d251bc8b185488d936/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vikas/.android/build-cache/cbcc171339880bcfc84985a1cd929589ca339485/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/vikas/.android/build-cache/40575db10a51ee46fbcffd62fcc6303d8dc16f96/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vikas/.android/build-cache/1c813324ca8b1f249cd921386aebf3c26d039faf/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] /home/vikas/.android/build-cache/596c1db2da58047377ae00cdfad84c41aaf4ac89/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:26:9-47

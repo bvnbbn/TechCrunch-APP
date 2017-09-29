@@ -16,6 +16,10 @@
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/color-v23/abc_tint_btn_checkable.xml"
     },

@@ -28,6 +28,10 @@
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/design_ic_visibility.png",
+        "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/drawable-mdpi-v4/design_ic_visibility.png"
+    },
+    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
@@ -48,12 +52,12 @@
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -64,12 +68,12 @@
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -94,6 +98,10 @@
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/design_ic_visibility_off.png",
+        "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
