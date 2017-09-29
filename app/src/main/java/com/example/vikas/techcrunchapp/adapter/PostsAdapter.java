@@ -42,7 +42,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
         RelativeLayout postsLayout;
         TextView postsTitle;
         TextView author;
-        TextView content;
+       // TextView content;
 
 
         ImageView imageView;
@@ -55,7 +55,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
             postsTitle = (TextView) v.findViewById(R.id.post_title);
             author = (TextView) v.findViewById(R.id.post_author);
             imageView=(ImageView)v.findViewById(R.id.post_image);
-            content=(TextView)v.findViewById(R.id.post_content);
+            //content=(TextView)v.findViewById(R.id.post_content);
         }
 
     }
@@ -83,7 +83,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
         Posts post= posts.get(position);
         holder.postsTitle.setText(posts.get(position).getTitle());
        // holder.author.setText(posts.get(position).getReleaseDate());
-        holder.content.setText(posts.get(position).getExcerpt());
+       // holder.content.setText(posts.get(position).getExcerpt());
         MovieImage(holder,post);
         applyClickEvents(holder,position);
 
@@ -107,14 +107,8 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
     private void MovieImage(PostsViewHolder holder,Posts post)
     {
 
-       // String size_Image="w600";
+
         String file_Path=post.getFeatured_image();
-
-       // StringBuilder image_Path=new StringBuilder();
-       // image_Path.append(file_Path).append(size_Image);
-
-
-
 
 
         if(!TextUtils.isEmpty(file_Path))

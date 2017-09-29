@@ -12,12 +12,12 @@
         "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/vikas/.android/build-cache/0e5cd6eba1e4b8d40841277ab81d6fb0368cee47/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/home/vikas/Desktop/TechCrunchApp/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",

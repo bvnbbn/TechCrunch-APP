@@ -1,17 +1,24 @@
 package com.example.vikas.techcrunchapp.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.vikas.techcrunchapp.R;
 import com.example.vikas.techcrunchapp.adapter.PostsAdapter;
+
 import com.example.vikas.techcrunchapp.model.Posts;
 import com.example.vikas.techcrunchapp.model.PostsResponse;
 import com.example.vikas.techcrunchapp.rest.ApiClient;
@@ -27,7 +34,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity implements PostsAdapter.PostAdapterListener {
 
     private static final String TAG=MainActivity.class.getSimpleName();
-    //get which got from web API
+
     private CoordinatorLayout coordinatorLayout;
     private PostsAdapter movieAdapter;
     private RecyclerView recyclerView;
@@ -43,7 +50,11 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+
+
+
+       // recyclerView.setItemAnimator(new DefaultItemAnimator());
 
 
 
@@ -56,10 +67,10 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
             {
 
                 postList= response.body().getPosts();
-                Log.d(TAG, "Number of posts received: " + postList.size());
+                Log.e(TAG, "Number of posts received: " + postList.size());
                 recyclerView.setAdapter(new PostsAdapter(postList, R.layout.recycler_item_view_post, getApplicationContext(),MainActivity.this));
-                // movieAdapter.notifyDataSetChanged();
-                // Log.d(TAG, "Number of movies received: " + movieList.);
+
+
 
 
             }
@@ -81,13 +92,12 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     @Override
     public void onItemClicked(int position)
     {
-       /* Posts posts = postList.get(position);
-        // Toast.makeText(getApplicationContext(), "read: "+ movie.getId(), Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(getApplicationContext(),SelectedMovie.class);
-        i.putExtra("movie_id",posts.getID());
-        startActivity(i);*/
+        Posts posts = postList.get(position);
+        Toast.makeText(getApplicationContext(), "read: "+ posts.getID(), Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(getApplicationContext(),SelectedPost.class);
+        i.putExtra("post_id",posts.getID());
+        startActivity(i);
     }
-
 
 }
 

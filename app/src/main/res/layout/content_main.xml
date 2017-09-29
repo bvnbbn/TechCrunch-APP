@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_subtle_pattern"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/thumbnail">
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            android:paddingEnd="16dp"
+            android:textStyle="bold"
+            android:text="SpaceX aims to replace Falcon 9, Falcon Heavy, and Dragon with one spaceship"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:maxLines="3"/>
+
+
+        <TextView
+            android:id="@+id/post_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            android:text="by Darrell Etherington"
+            android:textColor="@color/colorGreyLight" />
+
+        <TextView
+            android:id="@+id/post_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When Elon Musk took the stage at the International Astronautical Congress today to expand on the Mars plan he revealed at the event last year, he started where people had the most questions last time around: How will you pay for trips to Mars? The answer, Musk said, had a lot to do with simplifying the companies lineup, and rendering redundant some of its current products. To do that… Read More"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorGreyLight" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
