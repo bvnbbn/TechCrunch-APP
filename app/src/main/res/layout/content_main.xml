@@ -7,16 +7,21 @@
     android:layout_height="match_parent"
     android:background="@drawable/my_subtle_pattern"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/selected_post">
 
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
     <LinearLayout
         android:id="@+id/data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_toRightOf="@+id/thumbnail">
+        android:layout_toRightOf="@+id/thumbnail"
+        >
 
         <TextView
             android:id="@+id/post_title"
@@ -40,7 +45,6 @@
             android:layout_height="wrap_content"
             android:paddingRight="16dp"
             android:paddingLeft="16dp"
-
             android:text="by Darrell Etherington"
             android:textColor="@color/colorGreyLight" />
 
@@ -54,6 +58,7 @@
             android:textColor="@color/colorGreyLight" />
 
     </LinearLayout>
+</ScrollView>
 
 
 </RelativeLayout>

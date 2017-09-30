@@ -5,7 +5,9 @@ package com.example.vikas.techcrunchapp.adapter;
  */
 
 import android.content.Context;
+import android.os.Build;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -81,8 +83,13 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
     public void onBindViewHolder(PostsViewHolder holder, final int position)
     {
         Posts post= posts.get(position);
-        holder.postsTitle.setText(posts.get(position).getTitle());
-       // holder.author.setText(posts.get(position).getReleaseDate());
+        //checking if the android version is nougat or not
+        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.N) {
+            holder.postsTitle.setText(Html.fromHtml(posts.get(position).getTitle(),Html.FROM_HTML_MODE_COMPACT));
+        }
+        else {
+            holder.postsTitle.setText(Html.fromHtml(posts.get(position).getTitle()));
+        }
        // holder.content.setText(posts.get(position).getExcerpt());
         MovieImage(holder,post);
         applyClickEvents(holder,position);
@@ -117,7 +124,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostsViewHol
                     .thumbnail(0.5f)
                     .crossFade()
                     .transform(new CircleTransformation(context))
-                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)//storing all sizes of image
                     .into(holder.imageView);
         }
         else

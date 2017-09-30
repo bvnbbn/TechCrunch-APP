@@ -1,10 +1,12 @@
 package com.example.vikas.techcrunchapp.activity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -82,11 +84,22 @@ public class SelectedPost extends AppCompatActivity {
 
                 }
 
-                String title = post_selected.getTitle();
-                selected_post_title.setText(title);
+                //checking if the android version is nougat or not
+                if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.N) {
+                    String title = post_selected.getTitle();
+                    selected_post_title.setText(Html.fromHtml(title,Html.FROM_HTML_MODE_COMPACT));
 
-                String content = post_selected.getContent();
-                selected_post_content.setText(content);
+                    String content = post_selected.getContent();
+                    selected_post_content.setText(Html.fromHtml(content,Html.FROM_HTML_MODE_COMPACT));
+
+                }
+                else {
+                    String title = post_selected.getTitle();
+                    selected_post_title.setText(Html.fromHtml(title));
+
+                    String content = post_selected.getContent();
+                    selected_post_content.setText(Html.fromHtml(content));
+                }
 
 
             }
