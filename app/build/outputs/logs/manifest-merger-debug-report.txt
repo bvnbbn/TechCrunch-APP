@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:6:
 	android:name
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:8:5-28:19
+ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:8:5-29:19
 MERGED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /home/vikas/.android/build-cache/9efd54ae8d476abaf4ec063cb9208e2db9a2eeb3/output/AndroidManifest.xml:26:5-20
 MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] /home/vikas/.android/build-cache/90f10a821a13e6c9c06df945eab83b0a088ee68e/output/AndroidManifest.xml:10:5-20
@@ -44,7 +44,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vikas
 	android:icon
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:14:9-47
 activity#com.example.vikas.techcrunchapp.activity.SplashActivity
 ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
@@ -60,15 +60,17 @@ ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:19
 	android:name
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.example.vikas.techcrunchapp.activity.MainActivity
-ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:23:9-24:20
+ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:23:9-25:20
+	android:theme
+		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:24:13-44
 	android:name
 		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:23:19-56
 activity#com.example.vikas.techcrunchapp.activity.SelectedPost
-ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:25:9-27:20
+ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:26:9-28:20
 	android:theme
-		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:26:13-51
+		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:27:13-51
 	android:name
-		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:25:19-56
+		ADDED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml:26:19-56
 uses-sdk
 INJECTED from /home/vikas/Desktop/TechCrunchApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /home/vikas/.android/build-cache/87fd7fc6526b60bb5067cf700b56dabb5f69d7d0/output/AndroidManifest.xml:21:5-23:62
